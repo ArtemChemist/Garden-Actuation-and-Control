@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Garden_Actuation_and_Control
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
+        }
+
+        private void btnWaterValve_Click(object sender, EventArgs e)
+        {
+            //Uno1.driver.Send();
         }
     }
 }
